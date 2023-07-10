@@ -1,4 +1,6 @@
-Please download [summary.xlsx](summary.xlsx) to view the most recent results. [This page](https://docs.google.com/spreadsheets/d/e/2PACX-1vSCu8F7Hwck-AGJ5kWxi2G3xhO5MJoc_igybvsxjCt-2fEEYyf2BIcR0rTXW0eUzg/pubhtml) shows the results which may not be the latest. \n ```
+Please download [summary.xlsx](summary.xlsx) to view the most recent results. [This page](https://docs.google.com/spreadsheets/d/e/2PACX-1vSCu8F7Hwck-AGJ5kWxi2G3xhO5MJoc_igybvsxjCt-2fEEYyf2BIcR0rTXW0eUzg/pubhtml) shows the results which may not be the latest.
+
+```
 [2023-07-10 15:19:10,789 submission_checker.py:3349 INFO] ---
 [2023-07-10 15:19:10,789 submission_checker.py:3350 INFO] Results=738, NoResults=0, Power Results=243
 [2023-07-10 15:19:10,789 submission_checker.py:3357 INFO] ---
