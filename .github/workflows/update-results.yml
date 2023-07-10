@@ -23,11 +23,13 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.python-version }}
+
     - name: Install dependencies
       run: |
         python3 -m pip install cmind
         cm pull repo ctuning@mlcommons-ck
         cm run script --quiet --tags=get,sys-utils-cm
+
     - name: Run MLPerf Inference Submission Checker and generate results summary
       run: |
         cmr "run mlc mlcommons mlperf inference mlperf-inference submission checker submission-checker mlc-submission-checker" --adr.inference-src.version=custom --adr.inference-src.env.CM_GIT_URL=https://github.com/GATEOverflow/inference --adr.inference-src.env.CM_GIT_CHECKOUT=submission_checker --extra_args=" --skip-extra-files-in-root-check" --submission_dir=./
