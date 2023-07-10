@@ -40,6 +40,6 @@ jobs:
         git config --global user.email "$EMAIL"
         git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}
         git add summary*
-        echo 'Please open [summary.xlsx](summary.xlsx) to view the full results' | cat - README.md > temp && mv temp README.md
+        echo 'Please download [summary.xlsx](summary.xlsx) to view the most recent results. [This page](https://docs.google.com/spreadsheets/d/e/2PACX-1vSCu8F7Hwck-AGJ5kWxi2G3xhO5MJoc_igybvsxjCt-2fEEYyf2BIcR0rTXW0eUzg/pubhtml) shows the results which may not be the latest. ' | cat - README.md > temp && mv temp README.md
         git add README.md
         git diff-index --quiet HEAD || (git commit -am "Updated results summary" && git push)
