@@ -1,9 +1,9 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-name: MLPerf inference submission checker
+name: MLPerf inference results updater
 
 on:
-  pull_request:
+  push:
     branches: [ "main" ]
 
 jobs:
@@ -28,6 +28,15 @@ jobs:
         python3 -m pip install cmind
         cm pull repo mlcommons@ck
         cm run script --quiet --tags=get,sys-utils-cm
-    - name: Run MLPerf Inference Submission Checker
+    - name: Run MLPerf Inference Submission Checker and generate results summary
       run: |
-        cmr "run mlc mlcommons mlperf inference mlperf-inference submission checker submission-checker mlc-submission-checker" --submission_dir=./ 
+        cmr "run mlc mlcommons mlperf inference mlperf-inference submission checker submission-checker mlc-submission-checker" --submission_dir=./
+
+	USER=cTuning
+        EMAIL=admin@ctuning.org
+
+        git config --global user.name "$USER"
+        git config --global user.email "$EMAIL"
+        git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}
+        git add summary*
+        git diff-index --quiet HEAD || (git commit -am "Updated results summary" && git push)
