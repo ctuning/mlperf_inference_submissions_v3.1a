@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         python3 -m pip install cmind
-        cm pull repo mlcommons@ck
+        cm pull repo ctuning@mlcommons-ck
         cm run script --quiet --tags=get,sys-utils-cm
     - name: Run MLPerf Inference Submission Checker and generate results summary
       run: |
