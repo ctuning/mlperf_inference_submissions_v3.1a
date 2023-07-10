@@ -32,7 +32,7 @@ jobs:
       run: |
         cmr "run mlc mlcommons mlperf inference mlperf-inference submission checker submission-checker mlc-submission-checker" --submission_dir=./
 
-	USER=cTuning
+        USER=cTuning
         EMAIL=admin@ctuning.org
 
         git config --global user.name "$USER"
