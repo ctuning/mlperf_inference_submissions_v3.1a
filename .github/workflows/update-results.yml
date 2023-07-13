@@ -32,7 +32,7 @@ jobs:
 
     - name: Run MLPerf Inference Submission Checker and generate results summary
       run: |
-        cmr "run mlc mlcommons mlperf inference mlperf-inference submission checker submission-checker mlc-submission-checker" --adr.inference-src.version=custom --adr.inference-src.env.CM_GIT_URL=https://github.com/GATEOverflow/inference --adr.inference-src.env.CM_GIT_CHECKOUT=submission_checker --extra_args=" --skip-extra-files-in-root-check" --submission_dir=./ 2>checker_log.txt >out.txt
+        cmr "run mlc mlcommons mlperf inference mlperf-inference submission checker submission-checker mlc-submission-checker" --adr.inference-src.version=custom --adr.inference-src.tags=_repo.https://github.com/GATEOverflow/inference --adr.inference-src.tags=_branchsubmission_checker --extra_args=" --skip-extra-files-in-root-check" --tar=yes --env.CM_TAR_OUTFILE=submission.tar.gz --submission_dir=./ 2>checker_log.txt >out.txt
         cmr "convert from-csv to-md" --csv_file=summary.csv --md_file=README.md
 
         USER=cTuning
@@ -48,4 +48,5 @@ jobs:
         cat temp | cat - README.md > temp1 && mv temp1 README.md
         git add README.md
         git add checker_log.txt
+        git add submission.tar.gz
         git diff-index --quiet HEAD || (git commit -am "Updated results summary" && git push)
