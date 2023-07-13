@@ -1,0 +1,1609 @@
+GPIB interface specified.
+Selected power meter 'Yokogawa WT210' from yokowt210.cpp
+  ****************************************************************************
+                      ***********************************                     
+                               SPEC PTDaemon Tool                             
+                        Version 1.10.0-82175bac-20220817                     
+                      ***********************************                     
+                     Licensed Materials - Property of SPEC
+     Copyright 2006-2022 Standard Performance Evaluation Corporation (SPEC)
+                              All Rights Reserved.
+  For use with benchmark products from SPEC and authorized organizations only.
+  ****************************************************************************
+
+
+Redirecting data output to file C:\Users\HP\AppData\Local\Temp\tmpvy6b545w\ptd_logfile.txt
+Calculated PTD CRC: 0x82175bac, 1804288
+07-13-2023 00:01:00.339: Attempting to connect to measurement device type 8...
+07-13-2023 00:01:00.370: ni4882.dll found.
+07-13-2023 00:01:00.370: address is 20, board 0
+07-13-2023 00:01:00.737: Analyzer identity response of 24 bytes: YOKOGAWA,760401,0,F1.12
+
+07-13-2023 00:01:00.737: Firmware version 1.12 detected.
+07-13-2023 00:01:12.579: Uncertainty checking for YokogawaWT210 is activated
+07-13-2023 00:01:12.579: Connected to YokogawaWT210 successfully
+07-13-2023 00:01:12.579: Establishing the listener on port 8888...
+07-13-2023 00:01:12.582: Waiting for a connection...
+07-13-2023 00:01:12.823: Accepted connection from 127.0.0.1:52993
+07-13-2023 00:01:12.824: Response to client sent: Hello, PTDaemon here!
+07-13-2023 00:01:12.826: Response to client sent: YokogawaWT210,1000,1,1,1,1,0,0,1,version=1.10.0-82175bac-20220817,OS=Windows 8 / Server 2012,mode=power,1,1,1,0,0,no_cal_date,YOKOGAWA;760401;0;F1.12
+07-13-2023 00:01:12.829: Response to client sent: Ranges,0,1.000000,0,300.000000
+07-13-2023 00:01:12.834: Volt range set to Auto
+07-13-2023 00:01:13.356: Response to client sent: Range V changed
+07-13-2023 00:01:13.361: Ampere range set to Auto
+07-13-2023 00:01:13.879: Response to client sent: Range A changed
+07-13-2023 00:01:23.884: Go with mark '2023-07-13_01-01-00_ranging'
+07-13-2023 00:01:23.884: Response to client sent: Starting untimed measurement, maximum 500000 samples at 1000ms with 0 rampup samples
+07-13-2023 00:01:23.946: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:23.946: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:24.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:24.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:25.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:25.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:26.967: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:26.967: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:27.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:27.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:28.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:28.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:29.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:29.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:30.948: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:30.948: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:31.950: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:31.950: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:32.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:32.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:33.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:33.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:34.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:34.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:35.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:35.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:36.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:36.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:37.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:37.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:38.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:38.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:39.951: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:39.951: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:40.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:40.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:41.971: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:41.971: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:42.950: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:42.950: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:43.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:43.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:44.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:44.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:45.967: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:45.967: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:46.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:46.965: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:47.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:47.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:48.950: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:48.950: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:49.948: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:49.949: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:50.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:50.970: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:51.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:51.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:52.950: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:52.951: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:53.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:53.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:54.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:54.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:55.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:55.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:56.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:56.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:57.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:57.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:58.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:58.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:01:59.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:01:59.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:00.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:00.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:01.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:01.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:02.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:02.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:03.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:03.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:04.974: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:04.974: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:05.968: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:05.968: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:06.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:06.967: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:07.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:07.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:08.951: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:08.951: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:09.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:09.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:10.967: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:10.968: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:11.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:11.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:12.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:12.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:13.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:13.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:14.951: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:14.951: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:15.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:15.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:16.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:16.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:17.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:17.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:18.968: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:18.968: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:19.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:19.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:20.971: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:20.971: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:21.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:21.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:22.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:22.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:23.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:23.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:24.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:24.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:25.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:25.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:26.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:26.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:27.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:27.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:28.967: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:28.967: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:29.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:29.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:30.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:30.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:31.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:31.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:32.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:32.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:33.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:33.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:34.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:34.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:35.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:35.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:36.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:36.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:37.950: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:37.950: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:38.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:38.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:39.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:39.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:40.977: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:40.977: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:41.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:41.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:42.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:42.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:43.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:43.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:44.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:44.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:45.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:45.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:46.951: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:46.951: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:47.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:47.967: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:48.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:48.965: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:49.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:49.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:50.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:50.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:51.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:51.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:52.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:52.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:53.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:53.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:54.949: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:54.949: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:55.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:55.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:56.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:56.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:57.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:57.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:58.968: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:58.968: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:02:59.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:02:59.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:00.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:00.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:01.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:01.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:02.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:02.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:03.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:03.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:04.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:04.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:05.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:05.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:06.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:06.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:07.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:07.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:08.951: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:08.951: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:09.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:09.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:10.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:10.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:11.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:11.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:12.950: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:12.950: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:13.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:13.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:14.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:14.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:15.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:15.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:16.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:16.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:17.968: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:17.968: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:18.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:18.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:19.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:19.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:20.968: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:20.968: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:21.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:21.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:22.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:22.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:23.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:23.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:24.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:24.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:25.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:25.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:26.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:26.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:27.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:27.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:28.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:28.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:29.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:29.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:30.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:30.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:31.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:31.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:32.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:32.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:33.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:33.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:34.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:34.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:35.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:35.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:36.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:36.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:37.948: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:37.948: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:38.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:38.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:39.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:39.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:40.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:40.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:41.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:41.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:42.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:42.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:43.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:43.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:44.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:44.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:45.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:45.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:46.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:46.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:47.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:47.965: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:48.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:48.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:49.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:49.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:50.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:50.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:51.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:51.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:52.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:52.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:53.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:53.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:54.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:54.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:55.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:55.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:56.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:56.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:57.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:57.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:58.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:58.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:03:59.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:03:59.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:00.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:00.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:01.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:01.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:02.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:02.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:03.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:03.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:04.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:04.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:05.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:05.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:06.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:06.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:07.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:07.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:08.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:08.965: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:09.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:09.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:10.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:10.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:11.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:11.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:12.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:12.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:13.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:13.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:14.971: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:14.971: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:15.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:15.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:16.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:16.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:17.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:17.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:18.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:18.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:19.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:19.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:20.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:20.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:21.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:21.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:22.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:22.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:23.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:23.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:24.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:24.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:25.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:25.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:26.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:26.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:27.972: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:27.972: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:28.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:28.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:29.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:29.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:30.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:30.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:31.974: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:31.974: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:32.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:32.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:33.971: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:33.971: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:34.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:34.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:35.949: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:35.949: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:36.949: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:36.949: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:37.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:37.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:38.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:38.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:39.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:39.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:40.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:40.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:41.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:41.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:42.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:42.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:43.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:43.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:44.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:44.965: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:45.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:45.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:46.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:46.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:47.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:47.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:48.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:48.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:49.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:49.965: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:50.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:50.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:51.973: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:51.973: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:52.949: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:52.949: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:53.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:53.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:54.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:54.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:55.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:55.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:56.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:56.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:57.967: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:57.967: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:58.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:58.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:04:59.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:04:59.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:00.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:00.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:01.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:01.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:02.970: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:02.970: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:03.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:03.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:04.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:04.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:05.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:05.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:06.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:06.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:07.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:07.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:08.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:08.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:09.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:09.965: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:10.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:10.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:11.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:11.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:12.967: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:12.967: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:13.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:13.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:14.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:14.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:15.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:15.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:16.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:16.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:17.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:17.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:18.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:18.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:19.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:19.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:20.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:20.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:21.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:21.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:22.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:22.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:23.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:23.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:24.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:24.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:25.949: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:25.949: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:26.951: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:26.951: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:27.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:27.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:28.973: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:28.973: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:29.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:29.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:30.968: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:30.968: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:31.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:31.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:32.951: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:32.951: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:33.947: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:33.947: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:34.951: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:34.951: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:35.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:35.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:36.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:36.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:37.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:37.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:38.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:38.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:39.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:39.965: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:40.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:40.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:41.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:41.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:42.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:42.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:43.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:43.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:44.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:44.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:45.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:45.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:46.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:46.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:47.956: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:47.956: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:48.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:48.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:49.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:49.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:50.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:50.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:51.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:51.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:52.968: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:52.968: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:53.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:53.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:54.950: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:54.950: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:55.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:55.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:56.967: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:56.967: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:57.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:57.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:58.950: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:58.950: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:05:59.957: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:05:59.957: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:00.964: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:00.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:01.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:01.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:02.951: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:02.951: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:03.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:03.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:04.967: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:04.967: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:05.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:05.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:06.950: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:06.950: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:07.969: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:07.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:08.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:08.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:09.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:09.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:10.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:10.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:11.954: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:11.954: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:12.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:12.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:13.962: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:13.962: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:14.966: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:14.966: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:15.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:15.958: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:16.949: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:16.949: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:17.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:17.963: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:18.960: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:18.960: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:19.952: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:19.952: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:20.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:20.965: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:21.965: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:21.965: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:22.963: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:22.964: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:23.958: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:23.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:24.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:24.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:25.959: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:25.959: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:26.961: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:26.961: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:27.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:27.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:28.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:28.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:29.953: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:29.953: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:30.967: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:30.967: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:31.968: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:31.969: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:32.955: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:32.955: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:33.948: ERROR: Can't evaluate uncertainty of this sample!
+07-13-2023 00:06:33.948: WARNING: Uncertainty unknown for the last measurement sample!
+07-13-2023 00:06:34.686: Response to client sent: Stopping untimed measurement
+07-13-2023 00:06:34.897: Completed test
+07-13-2023 00:06:34.897: Avg watts 169.168907, min watts 119.200000, max watts 179.990000, samples 311, errors 0, valid 311
+07-13-2023 00:06:34.897: Response to client sent: Last 311 samples
+Time,07-13-2023 00:01:23.946,Watts,119.200000,Volts,247.570000,Amps,0.592800,PF,0.809800
+Time,07-13-2023 00:01:24.956,Watts,141.260000,Volts,247.570000,Amps,0.682300,PF,0.836600
+Time,07-13-2023 00:01:25.954,Watts,155.970000,Volts,247.570000,Amps,0.733500,PF,0.859100
+Time,07-13-2023 00:01:26.967,Watts,158.680000,Volts,247.570000,Amps,0.744300,PF,0.861600
+Time,07-13-2023 00:01:27.957,Watts,161.000000,Volts,247.570000,Amps,0.753700,PF,0.863500
+Time,07-13-2023 00:01:28.969,Watts,161.000000,Volts,247.570000,Amps,0.753700,PF,0.863300
+Time,07-13-2023 00:01:29.956,Watts,162.450000,Volts,247.570000,Amps,0.759400,PF,0.864700
+Time,07-13-2023 00:01:30.948,Watts,162.450000,Volts,247.570000,Amps,0.759400,PF,0.864500
+Time,07-13-2023 00:01:31.950,Watts,162.450000,Volts,247.570000,Amps,0.759400,PF,0.863600
+Time,07-13-2023 00:01:32.963,Watts,162.450000,Volts,247.570000,Amps,0.759400,PF,0.863800
+Time,07-13-2023 00:01:33.959,Watts,162.450000,Volts,247.570000,Amps,0.759400,PF,0.864300
+07-13-2023 00:06:34.898: Response to client sent: Time,07-13-2023 00:01:34.960,Watts,162.450000,Volts,247.570000,Amps,0.759400,PF,0.863700
+Time,07-13-2023 00:01:35.955,Watts,162.450000,Volts,247.570000,Amps,0.759400,PF,0.863800
+Time,07-13-2023 00:01:36.961,Watts,162.450000,Volts,247.570000,Amps,0.759400,PF,0.864200
+Time,07-13-2023 00:01:37.964,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.865300
+Time,07-13-2023 00:01:38.958,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863100
+Time,07-13-2023 00:01:39.951,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863100
+Time,07-13-2023 00:01:40.961,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863600
+Time,07-13-2023 00:01:41.971,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862400
+Time,07-13-2023 00:01:42.950,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.860600
+Time,07-13-2023 00:01:43.962,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861800
+Time,07-13-2023 00:01:44.958,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863700
+07-13-2023 00:06:34.898: Response to client sent: Time,07-13-2023 00:01:45.967,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862500
+Time,07-13-2023 00:01:46.965,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862500
+Time,07-13-2023 00:01:47.953,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862100
+Time,07-13-2023 00:01:48.950,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:01:49.948,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861300
+Time,07-13-2023 00:01:50.969,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.860900
+Time,07-13-2023 00:01:51.955,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863100
+Time,07-13-2023 00:01:52.950,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861300
+Time,07-13-2023 00:01:53.953,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861300
+Time,07-13-2023 00:01:54.964,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861600
+Time,07-13-2023 00:01:55.955,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861600
+07-13-2023 00:06:34.898: Response to client sent: Time,07-13-2023 00:01:56.958,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861700
+Time,07-13-2023 00:01:57.962,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861100
+Time,07-13-2023 00:01:58.957,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863800
+Time,07-13-2023 00:01:59.969,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862800
+Time,07-13-2023 00:02:00.952,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862900
+Time,07-13-2023 00:02:01.953,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862400
+Time,07-13-2023 00:02:02.957,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862300
+Time,07-13-2023 00:02:03.953,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862400
+Time,07-13-2023 00:02:04.974,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862900
+Time,07-13-2023 00:02:05.968,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863800
+Time,07-13-2023 00:02:06.966,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862700
+07-13-2023 00:06:34.898: Response to client sent: Time,07-13-2023 00:02:07.961,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862500
+Time,07-13-2023 00:02:08.951,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863200
+Time,07-13-2023 00:02:09.962,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862300
+Time,07-13-2023 00:02:10.967,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862600
+Time,07-13-2023 00:02:11.954,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862700
+Time,07-13-2023 00:02:12.957,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863300
+Time,07-13-2023 00:02:13.969,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862600
+Time,07-13-2023 00:02:14.951,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862100
+Time,07-13-2023 00:02:15.954,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862300
+Time,07-13-2023 00:02:16.959,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862300
+Time,07-13-2023 00:02:17.956,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862400
+07-13-2023 00:06:34.899: Response to client sent: Time,07-13-2023 00:02:18.968,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862100
+Time,07-13-2023 00:02:19.952,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862000
+Time,07-13-2023 00:02:20.971,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863200
+Time,07-13-2023 00:02:21.959,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861500
+Time,07-13-2023 00:02:22.961,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861700
+Time,07-13-2023 00:02:23.960,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861100
+Time,07-13-2023 00:02:24.954,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861200
+Time,07-13-2023 00:02:25.961,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:02:26.965,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:02:27.961,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863800
+Time,07-13-2023 00:02:28.967,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861800
+07-13-2023 00:06:34.900: Response to client sent: Time,07-13-2023 00:02:29.952,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861200
+Time,07-13-2023 00:02:30.956,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862100
+Time,07-13-2023 00:02:31.957,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862600
+Time,07-13-2023 00:02:32.958,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862600
+Time,07-13-2023 00:02:33.959,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862200
+Time,07-13-2023 00:02:34.956,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863900
+Time,07-13-2023 00:02:35.969,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862300
+Time,07-13-2023 00:02:36.966,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862500
+Time,07-13-2023 00:02:37.950,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:02:38.955,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:02:39.958,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861600
+07-13-2023 00:06:34.901: Response to client sent: Time,07-13-2023 00:02:40.977,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862700
+Time,07-13-2023 00:02:41.954,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.864100
+Time,07-13-2023 00:02:42.961,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863900
+Time,07-13-2023 00:02:43.959,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862700
+Time,07-13-2023 00:02:44.958,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:02:45.956,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862900
+Time,07-13-2023 00:02:46.951,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862900
+Time,07-13-2023 00:02:47.966,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862900
+Time,07-13-2023 00:02:48.965,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.864100
+Time,07-13-2023 00:02:49.957,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863300
+Time,07-13-2023 00:02:50.957,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862300
+07-13-2023 00:06:34.902: Response to client sent: Time,07-13-2023 00:02:51.960,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862100
+Time,07-13-2023 00:02:52.955,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:02:53.952,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862000
+Time,07-13-2023 00:02:54.949,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861700
+Time,07-13-2023 00:02:55.964,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862800
+Time,07-13-2023 00:02:56.957,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863300
+Time,07-13-2023 00:02:57.956,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861300
+Time,07-13-2023 00:02:58.968,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861000
+Time,07-13-2023 00:02:59.954,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861200
+Time,07-13-2023 00:03:00.962,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861500
+Time,07-13-2023 00:03:01.964,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861200
+07-13-2023 00:06:34.903: Response to client sent: Time,07-13-2023 00:03:02.961,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862500
+Time,07-13-2023 00:03:03.955,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863400
+Time,07-13-2023 00:03:04.953,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861600
+Time,07-13-2023 00:03:05.962,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:03:06.960,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862000
+Time,07-13-2023 00:03:07.955,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861800
+Time,07-13-2023 00:03:08.951,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:03:09.954,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:03:10.961,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863800
+Time,07-13-2023 00:03:11.954,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861600
+Time,07-13-2023 00:03:12.950,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862100
+07-13-2023 00:06:34.906: Response to client sent: Time,07-13-2023 00:03:13.953,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863600
+Time,07-13-2023 00:03:14.958,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862500
+Time,07-13-2023 00:03:15.955,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:03:16.959,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862700
+Time,07-13-2023 00:03:17.968,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.864600
+Time,07-13-2023 00:03:18.963,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863300
+Time,07-13-2023 00:03:19.953,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862500
+Time,07-13-2023 00:03:20.968,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862700
+Time,07-13-2023 00:03:21.963,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862300
+Time,07-13-2023 00:03:22.958,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862000
+Time,07-13-2023 00:03:23.959,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862000
+07-13-2023 00:06:34.907: Response to client sent: Time,07-13-2023 00:03:24.956,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.863700
+Time,07-13-2023 00:03:25.952,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.862400
+Time,07-13-2023 00:03:26.966,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861500
+Time,07-13-2023 00:03:27.955,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861100
+Time,07-13-2023 00:03:28.969,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.860500
+Time,07-13-2023 00:03:29.953,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.860500
+Time,07-13-2023 00:03:30.958,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.860900
+Time,07-13-2023 00:03:31.963,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:03:32.966,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861800
+Time,07-13-2023 00:03:33.961,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861200
+Time,07-13-2023 00:03:34.960,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861200
+07-13-2023 00:06:34.908: Response to client sent: Time,07-13-2023 00:03:35.952,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861400
+Time,07-13-2023 00:03:36.954,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861300
+Time,07-13-2023 00:03:37.948,Watts,163.110000,Volts,247.570000,Amps,0.762100,PF,0.861800
+Time,07-13-2023 00:03:38.964,Watts,163.110000,Volts,247.610000,Amps,0.762100,PF,0.862100
+Time,07-13-2023 00:03:39.953,Watts,163.110000,Volts,247.620000,Amps,0.762100,PF,0.862500
+Time,07-13-2023 00:03:40.964,Watts,163.110000,Volts,247.660000,Amps,0.762100,PF,0.861500
+Time,07-13-2023 00:03:41.952,Watts,163.110000,Volts,247.660000,Amps,0.762100,PF,0.861200
+Time,07-13-2023 00:03:42.964,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861400
+Time,07-13-2023 00:03:43.962,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862500
+Time,07-13-2023 00:03:44.961,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862400
+Time,07-13-2023 00:03:45.951,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862200
+07-13-2023 00:06:34.938: Response to client sent: Time,07-13-2023 00:03:46.958,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.863600
+Time,07-13-2023 00:03:47.965,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862800
+Time,07-13-2023 00:03:48.953,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862400
+Time,07-13-2023 00:03:49.960,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862400
+Time,07-13-2023 00:03:50.969,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862300
+Time,07-13-2023 00:03:51.956,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862600
+Time,07-13-2023 00:03:52.964,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862100
+Time,07-13-2023 00:03:53.955,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.863500
+Time,07-13-2023 00:03:54.953,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861600
+Time,07-13-2023 00:03:55.960,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861900
+Time,07-13-2023 00:03:56.969,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861200
+07-13-2023 00:06:34.938: Response to client sent: Time,07-13-2023 00:03:57.958,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861300
+Time,07-13-2023 00:03:58.952,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861500
+Time,07-13-2023 00:03:59.957,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861000
+Time,07-13-2023 00:04:00.957,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.863100
+Time,07-13-2023 00:04:01.963,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861700
+Time,07-13-2023 00:04:02.956,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861300
+Time,07-13-2023 00:04:03.952,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861300
+Time,07-13-2023 00:04:04.962,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862100
+Time,07-13-2023 00:04:05.955,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861400
+Time,07-13-2023 00:04:06.966,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861800
+Time,07-13-2023 00:04:07.961,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.863700
+07-13-2023 00:06:34.938: Response to client sent: Time,07-13-2023 00:04:08.965,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862500
+Time,07-13-2023 00:04:09.969,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861400
+Time,07-13-2023 00:04:10.962,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862100
+Time,07-13-2023 00:04:11.956,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861500
+Time,07-13-2023 00:04:12.952,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861600
+Time,07-13-2023 00:04:13.965,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861400
+Time,07-13-2023 00:04:14.971,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.863600
+Time,07-13-2023 00:04:15.959,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.863000
+Time,07-13-2023 00:04:16.961,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861300
+Time,07-13-2023 00:04:17.960,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861500
+Time,07-13-2023 00:04:18.961,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862500
+07-13-2023 00:06:34.939: Response to client sent: Time,07-13-2023 00:04:19.962,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862200
+Time,07-13-2023 00:04:20.955,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862600
+Time,07-13-2023 00:04:21.956,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.862900
+Time,07-13-2023 00:04:22.953,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.863500
+Time,07-13-2023 00:04:23.963,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861300
+Time,07-13-2023 00:04:24.956,Watts,163.110000,Volts,247.670000,Amps,0.762100,PF,0.861600
+Time,07-13-2023 00:04:25.956,Watts,165.070000,Volts,247.670000,Amps,0.771500,PF,0.865500
+Time,07-13-2023 00:04:26.958,Watts,170.570000,Volts,247.670000,Amps,0.792700,PF,0.870500
+Time,07-13-2023 00:04:27.972,Watts,170.570000,Volts,247.670000,Amps,0.792700,PF,0.869600
+Time,07-13-2023 00:04:28.959,Watts,170.570000,Volts,247.670000,Amps,0.792700,PF,0.870200
+Time,07-13-2023 00:04:29.961,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.871800
+07-13-2023 00:06:34.939: Response to client sent: Time,07-13-2023 00:04:30.961,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.870200
+Time,07-13-2023 00:04:31.974,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.870100
+Time,07-13-2023 00:04:32.957,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.870100
+Time,07-13-2023 00:04:33.971,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.869000
+Time,07-13-2023 00:04:34.955,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.869100
+Time,07-13-2023 00:04:35.949,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.869600
+Time,07-13-2023 00:04:36.949,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.870900
+Time,07-13-2023 00:04:37.964,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.870100
+Time,07-13-2023 00:04:38.953,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.870000
+Time,07-13-2023 00:04:39.957,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.870200
+Time,07-13-2023 00:04:40.957,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.869800
+07-13-2023 00:06:34.939: Response to client sent: Time,07-13-2023 00:04:41.954,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.869300
+Time,07-13-2023 00:04:42.966,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.868800
+Time,07-13-2023 00:04:43.965,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.871000
+Time,07-13-2023 00:04:44.965,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.869700
+Time,07-13-2023 00:04:45.958,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.869800
+Time,07-13-2023 00:04:46.955,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.870100
+Time,07-13-2023 00:04:47.962,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.868100
+Time,07-13-2023 00:04:48.964,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.869100
+Time,07-13-2023 00:04:49.965,Watts,172.560000,Volts,247.670000,Amps,0.800700,PF,0.869900
+Time,07-13-2023 00:04:50.957,Watts,172.830000,Volts,247.670000,Amps,0.800900,PF,0.872300
+Time,07-13-2023 00:04:51.973,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.877300
+07-13-2023 00:06:34.939: Response to client sent: Time,07-13-2023 00:04:52.949,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870200
+Time,07-13-2023 00:04:53.953,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870900
+Time,07-13-2023 00:04:54.961,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870800
+Time,07-13-2023 00:04:55.955,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871200
+Time,07-13-2023 00:04:56.952,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870700
+Time,07-13-2023 00:04:57.967,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.872400
+Time,07-13-2023 00:04:58.952,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871200
+Time,07-13-2023 00:04:59.962,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.869600
+Time,07-13-2023 00:05:00.955,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.869900
+Time,07-13-2023 00:05:01.961,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870500
+Time,07-13-2023 00:05:02.970,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.872500
+07-13-2023 00:06:34.940: Response to client sent: Time,07-13-2023 00:05:03.959,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870900
+Time,07-13-2023 00:05:04.964,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871700
+Time,07-13-2023 00:05:05.958,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871500
+Time,07-13-2023 00:05:06.961,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871900
+Time,07-13-2023 00:05:07.961,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870700
+Time,07-13-2023 00:05:08.961,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870800
+Time,07-13-2023 00:05:09.965,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871100
+Time,07-13-2023 00:05:10.953,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871400
+Time,07-13-2023 00:05:11.954,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871800
+Time,07-13-2023 00:05:12.967,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.872400
+Time,07-13-2023 00:05:13.956,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870100
+07-13-2023 00:06:34.940: Response to client sent: Time,07-13-2023 00:05:14.954,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870500
+Time,07-13-2023 00:05:15.961,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871300
+Time,07-13-2023 00:05:16.960,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871700
+Time,07-13-2023 00:05:17.969,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870400
+Time,07-13-2023 00:05:18.963,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.868800
+Time,07-13-2023 00:05:19.969,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871500
+Time,07-13-2023 00:05:20.963,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870900
+Time,07-13-2023 00:05:21.962,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870900
+Time,07-13-2023 00:05:22.959,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870900
+Time,07-13-2023 00:05:23.959,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871000
+Time,07-13-2023 00:05:24.956,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.871400
+07-13-2023 00:06:34.940: Response to client sent: Time,07-13-2023 00:05:25.949,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870100
+Time,07-13-2023 00:05:26.951,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.872200
+Time,07-13-2023 00:05:27.969,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.869300
+Time,07-13-2023 00:05:28.973,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.869500
+Time,07-13-2023 00:05:29.969,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.869100
+Time,07-13-2023 00:05:30.968,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870300
+Time,07-13-2023 00:05:31.955,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.870200
+Time,07-13-2023 00:05:32.951,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.866600
+Time,07-13-2023 00:05:33.947,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.863000
+Time,07-13-2023 00:05:34.951,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861600
+Time,07-13-2023 00:05:35.969,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861600
+07-13-2023 00:06:34.941: Response to client sent: Time,07-13-2023 00:05:36.952,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861500
+Time,07-13-2023 00:05:37.958,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861900
+Time,07-13-2023 00:05:38.954,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861800
+Time,07-13-2023 00:05:39.965,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861600
+Time,07-13-2023 00:05:40.959,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.863900
+Time,07-13-2023 00:05:41.966,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862700
+Time,07-13-2023 00:05:42.952,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862300
+Time,07-13-2023 00:05:43.954,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862600
+Time,07-13-2023 00:05:44.963,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862100
+Time,07-13-2023 00:05:45.957,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862200
+Time,07-13-2023 00:05:46.952,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862100
+07-13-2023 00:06:34.941: Response to client sent: Time,07-13-2023 00:05:47.956,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.863800
+Time,07-13-2023 00:05:48.960,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.863500
+Time,07-13-2023 00:05:49.966,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861100
+Time,07-13-2023 00:05:50.962,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862500
+Time,07-13-2023 00:05:51.957,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862400
+Time,07-13-2023 00:05:52.968,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862200
+Time,07-13-2023 00:05:53.964,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862500
+Time,07-13-2023 00:05:54.949,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.863000
+Time,07-13-2023 00:05:55.960,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.864100
+Time,07-13-2023 00:05:56.967,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861800
+Time,07-13-2023 00:05:57.959,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861500
+07-13-2023 00:06:34.941: Response to client sent: Time,07-13-2023 00:05:58.950,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861100
+Time,07-13-2023 00:05:59.957,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861300
+Time,07-13-2023 00:06:00.964,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.860800
+Time,07-13-2023 00:06:01.966,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.860500
+Time,07-13-2023 00:06:02.951,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.864200
+Time,07-13-2023 00:06:03.952,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.860400
+Time,07-13-2023 00:06:04.967,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.860400
+Time,07-13-2023 00:06:05.966,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.860600
+Time,07-13-2023 00:06:06.950,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.860900
+Time,07-13-2023 00:06:07.969,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861100
+Time,07-13-2023 00:06:08.963,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861500
+07-13-2023 00:06:34.941: Response to client sent: Time,07-13-2023 00:06:09.954,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.863000
+Time,07-13-2023 00:06:10.960,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862300
+Time,07-13-2023 00:06:11.954,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861600
+Time,07-13-2023 00:06:12.960,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862000
+Time,07-13-2023 00:06:13.962,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862300
+Time,07-13-2023 00:06:14.966,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861600
+Time,07-13-2023 00:06:15.958,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861700
+Time,07-13-2023 00:06:16.949,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.863400
+Time,07-13-2023 00:06:17.963,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862500
+Time,07-13-2023 00:06:18.960,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862300
+Time,07-13-2023 00:06:19.952,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861000
+07-13-2023 00:06:34.942: Response to client sent: Time,07-13-2023 00:06:20.965,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.860400
+Time,07-13-2023 00:06:21.965,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.860900
+Time,07-13-2023 00:06:22.963,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.861600
+Time,07-13-2023 00:06:23.958,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.862800
+Time,07-13-2023 00:06:24.955,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.860600
+Time,07-13-2023 00:06:25.959,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.822000
+Time,07-13-2023 00:06:26.961,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.809200
+Time,07-13-2023 00:06:27.955,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.809200
+Time,07-13-2023 00:06:28.953,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.806400
+Time,07-13-2023 00:06:29.953,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.805900
+Time,07-13-2023 00:06:30.967,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.807400
+07-13-2023 00:06:34.942: Response to client sent: Time,07-13-2023 00:06:31.968,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.808500
+Time,07-13-2023 00:06:32.955,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.807400
+Time,07-13-2023 00:06:33.948,Watts,179.990000,Volts,247.670000,Amps,0.829300,PF,0.805600
+07-13-2023 00:06:34.946: Response to client sent: Uncertainty,-1.0,10000000.000000,0.000000,311,0,0,311
+07-13-2023 00:06:35.383: Response to client sent: Watts,169.168907,119.200000,179.990000,311,0,311
+07-13-2023 00:06:35.457: Volt range set to 300.000000V
+07-13-2023 00:06:36.980: Response to client sent: Range V changed
+07-13-2023 00:06:36.985: Amp range set to 1.000000A
+07-13-2023 00:06:38.511: Response to client sent: Range A changed
+07-13-2023 00:06:48.516: Go with mark '2023-07-13_01-01-00_testing'
+07-13-2023 00:06:48.516: Response to client sent: Starting untimed measurement, maximum 500000 samples at 1000ms with 0 rampup samples
+07-13-2023 00:17:00.160: Response to client sent: Watts,164.100735,118.730000,164.200000,612,0,612
+07-13-2023 00:17:00.162: Response to client sent: Uncertainty,0.004514,0.004483,0.005489,612,0,612,0
+07-13-2023 00:17:00.165: Response to client sent: Stopping untimed measurement
+07-13-2023 00:17:00.523: Completed test
+07-13-2023 00:17:00.523: Avg watts 164.100735, min watts 118.730000, max watts 164.200000, samples 612, errors 0, valid 612
+07-13-2023 00:17:00.524: Response to client sent: Last 612 samples
+Time,07-13-2023 00:06:48.586,Watts,118.730000,Volts,247.410000,Amps,0.591400,PF,0.807200
+Time,07-13-2023 00:06:49.589,Watts,158.270000,Volts,247.410000,Amps,0.745000,PF,0.859400
+Time,07-13-2023 00:06:50.583,Watts,158.270000,Volts,247.410000,Amps,0.745000,PF,0.859700
+Time,07-13-2023 00:06:51.599,Watts,160.780000,Volts,247.410000,Amps,0.753200,PF,0.863200
+Time,07-13-2023 00:06:52.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.865700
+Time,07-13-2023 00:06:53.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.864100
+Time,07-13-2023 00:06:54.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.864000
+Time,07-13-2023 00:06:55.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.864700
+Time,07-13-2023 00:06:56.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863700
+Time,07-13-2023 00:06:57.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862700
+Time,07-13-2023 00:06:58.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+07-13-2023 00:17:00.524: Response to client sent: Time,07-13-2023 00:06:59.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863700
+Time,07-13-2023 00:07:00.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862800
+Time,07-13-2023 00:07:01.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:07:02.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:07:03.605,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:07:04.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:07:05.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:07:06.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862800
+Time,07-13-2023 00:07:07.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862900
+Time,07-13-2023 00:07:08.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:07:09.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+07-13-2023 00:17:00.524: Response to client sent: Time,07-13-2023 00:07:10.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862900
+Time,07-13-2023 00:07:11.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:07:12.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:07:13.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863100
+Time,07-13-2023 00:07:14.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863300
+Time,07-13-2023 00:07:15.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:07:16.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:07:17.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:07:18.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:07:19.601,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:07:20.604,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.864100
+07-13-2023 00:17:00.525: Response to client sent: Time,07-13-2023 00:07:21.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863000
+Time,07-13-2023 00:07:22.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:07:23.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:07:24.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862500
+Time,07-13-2023 00:07:25.604,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:07:26.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:07:27.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:07:28.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862600
+Time,07-13-2023 00:07:29.601,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:07:30.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:07:31.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+07-13-2023 00:17:00.525: Response to client sent: Time,07-13-2023 00:07:32.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:07:33.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:07:34.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:07:35.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862600
+Time,07-13-2023 00:07:36.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:07:37.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+Time,07-13-2023 00:07:38.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:07:39.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+Time,07-13-2023 00:07:40.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:07:41.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:07:42.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+07-13-2023 00:17:00.525: Response to client sent: Time,07-13-2023 00:07:43.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:07:44.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:07:45.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:07:46.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+Time,07-13-2023 00:07:47.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:07:48.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:07:49.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862600
+Time,07-13-2023 00:07:50.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:07:51.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:07:52.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:07:53.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+07-13-2023 00:17:00.526: Response to client sent: Time,07-13-2023 00:07:54.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:07:55.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:07:56.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:07:57.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862700
+Time,07-13-2023 00:07:58.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:07:59.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:08:00.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:08:01.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:08:02.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:08:03.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:08:04.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862100
+07-13-2023 00:17:00.528: Response to client sent: Time,07-13-2023 00:08:05.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:08:06.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:08:07.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:08:08.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:08:09.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:08:10.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:08:11.580,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863700
+Time,07-13-2023 00:08:12.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:08:13.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:08:14.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:08:15.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+07-13-2023 00:17:00.531: Response to client sent: Time,07-13-2023 00:08:16.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:08:17.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:08:18.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862800
+Time,07-13-2023 00:08:19.576,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:08:20.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:08:21.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:08:22.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862400
+Time,07-13-2023 00:08:23.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:08:24.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:08:25.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863100
+Time,07-13-2023 00:08:26.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862400
+07-13-2023 00:17:00.532: Response to client sent: Time,07-13-2023 00:08:27.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:08:28.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:08:29.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:08:30.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:08:31.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:08:32.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:08:33.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:08:34.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:08:35.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:08:36.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:08:37.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+07-13-2023 00:17:00.533: Response to client sent: Time,07-13-2023 00:08:38.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:08:39.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:08:40.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:08:41.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:08:42.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:08:43.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:08:44.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:08:45.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:08:46.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:08:47.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:08:48.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+07-13-2023 00:17:00.547: Response to client sent: Time,07-13-2023 00:08:49.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:08:50.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:08:51.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:08:52.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862600
+Time,07-13-2023 00:08:53.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:08:54.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:08:55.601,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:08:56.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:08:57.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862500
+Time,07-13-2023 00:08:58.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:08:59.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862600
+07-13-2023 00:17:00.548: Response to client sent: Time,07-13-2023 00:09:00.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:09:01.601,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863100
+Time,07-13-2023 00:09:02.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:09:03.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:09:04.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:09:05.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:09:06.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:09:07.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:09:08.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862500
+Time,07-13-2023 00:09:09.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:09:10.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+07-13-2023 00:17:00.548: Response to client sent: Time,07-13-2023 00:09:11.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:09:12.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:09:13.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:09:14.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:09:15.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862700
+Time,07-13-2023 00:09:16.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862800
+Time,07-13-2023 00:09:17.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862600
+Time,07-13-2023 00:09:18.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:09:19.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:09:20.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:09:21.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+07-13-2023 00:17:00.549: Response to client sent: Time,07-13-2023 00:09:22.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:09:23.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863500
+Time,07-13-2023 00:09:24.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:09:25.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:09:26.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:09:27.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:09:28.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862100
+Time,07-13-2023 00:09:29.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:09:30.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863600
+Time,07-13-2023 00:09:31.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:09:32.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+07-13-2023 00:17:00.549: Response to client sent: Time,07-13-2023 00:09:33.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:09:34.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:09:35.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:09:36.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:09:37.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862800
+Time,07-13-2023 00:09:38.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:09:39.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:09:40.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:09:41.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:09:42.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:09:43.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+07-13-2023 00:17:00.550: Response to client sent: Time,07-13-2023 00:09:44.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862800
+Time,07-13-2023 00:09:45.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:09:46.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:09:47.603,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862100
+Time,07-13-2023 00:09:48.580,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:09:49.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:09:50.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:09:51.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:09:52.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862100
+Time,07-13-2023 00:09:53.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859100
+Time,07-13-2023 00:09:54.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859300
+07-13-2023 00:17:00.550: Response to client sent: Time,07-13-2023 00:09:55.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859100
+Time,07-13-2023 00:09:56.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.857900
+Time,07-13-2023 00:09:57.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:09:58.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:09:59.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:10:00.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+Time,07-13-2023 00:10:01.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:10:02.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:10:03.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:10:04.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859500
+Time,07-13-2023 00:10:05.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+07-13-2023 00:17:00.551: Response to client sent: Time,07-13-2023 00:10:06.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:10:07.580,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:10:08.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:10:09.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+Time,07-13-2023 00:10:10.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:10:11.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859400
+Time,07-13-2023 00:10:12.578,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:10:13.605,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862700
+Time,07-13-2023 00:10:14.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:10:15.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:10:16.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+07-13-2023 00:17:00.551: Response to client sent: Time,07-13-2023 00:10:17.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:10:18.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:10:19.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:10:20.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862500
+Time,07-13-2023 00:10:21.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:10:22.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:10:23.601,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:10:24.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:10:25.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862600
+Time,07-13-2023 00:10:26.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:10:27.579,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+07-13-2023 00:17:00.551: Response to client sent: Time,07-13-2023 00:10:28.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:10:29.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:10:30.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:10:31.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:10:32.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:10:33.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:10:34.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:10:35.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:10:36.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:10:37.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:10:38.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+07-13-2023 00:17:00.551: Response to client sent: Time,07-13-2023 00:10:39.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:10:40.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:10:41.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:10:42.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:10:43.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:10:44.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:10:45.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:10:46.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:10:47.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:10:48.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:10:49.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863000
+07-13-2023 00:17:00.552: Response to client sent: Time,07-13-2023 00:10:50.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:10:51.580,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:10:52.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:10:53.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:10:54.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:10:55.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:10:56.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863400
+Time,07-13-2023 00:10:57.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:10:58.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:10:59.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:11:00.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862100
+07-13-2023 00:17:00.552: Response to client sent: Time,07-13-2023 00:11:01.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:11:02.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:11:03.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862900
+Time,07-13-2023 00:11:04.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:11:05.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:11:06.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:11:07.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:11:08.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:11:09.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:11:10.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:11:11.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+07-13-2023 00:17:00.552: Response to client sent: Time,07-13-2023 00:11:12.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:11:13.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:11:14.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:11:15.580,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:11:16.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:11:17.601,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863000
+Time,07-13-2023 00:11:18.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:11:19.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:11:20.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:11:21.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862100
+Time,07-13-2023 00:11:22.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+07-13-2023 00:17:00.552: Response to client sent: Time,07-13-2023 00:11:23.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:11:24.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:11:25.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862600
+Time,07-13-2023 00:11:26.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:11:27.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:11:28.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:11:29.602,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:11:30.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:11:31.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862600
+Time,07-13-2023 00:11:32.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863200
+Time,07-13-2023 00:11:33.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+07-13-2023 00:17:00.553: Response to client sent: Time,07-13-2023 00:11:34.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:11:35.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:11:36.603,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:11:37.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:11:38.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:11:39.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:11:40.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:11:41.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:11:42.580,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:11:43.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:11:44.580,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+07-13-2023 00:17:00.553: Response to client sent: Time,07-13-2023 00:11:45.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:11:46.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863200
+Time,07-13-2023 00:11:47.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:11:48.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:11:49.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:11:50.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:11:51.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:11:52.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:11:53.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862700
+Time,07-13-2023 00:11:54.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:11:55.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+07-13-2023 00:17:00.553: Response to client sent: Time,07-13-2023 00:11:56.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:11:57.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:11:58.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:11:59.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+Time,07-13-2023 00:12:00.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:12:01.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:12:02.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:12:03.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:12:04.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:12:05.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862100
+Time,07-13-2023 00:12:06.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+07-13-2023 00:17:00.553: Response to client sent: Time,07-13-2023 00:12:07.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862100
+Time,07-13-2023 00:12:08.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862100
+Time,07-13-2023 00:12:09.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862200
+Time,07-13-2023 00:12:10.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:12:11.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+Time,07-13-2023 00:12:12.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:12:13.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:12:14.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+Time,07-13-2023 00:12:15.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:12:16.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859400
+Time,07-13-2023 00:12:17.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+07-13-2023 00:17:00.554: Response to client sent: Time,07-13-2023 00:12:18.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:12:19.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:12:20.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:12:21.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:12:22.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:12:23.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:12:24.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:12:25.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:12:26.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:12:27.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:12:28.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+07-13-2023 00:17:00.554: Response to client sent: Time,07-13-2023 00:12:29.604,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863100
+Time,07-13-2023 00:12:30.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:12:31.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:12:32.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:12:33.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:12:34.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:12:35.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861700
+Time,07-13-2023 00:12:36.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863200
+Time,07-13-2023 00:12:37.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:12:38.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:12:39.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+07-13-2023 00:17:00.554: Response to client sent: Time,07-13-2023 00:12:40.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+Time,07-13-2023 00:12:41.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:12:42.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:12:43.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:12:44.601,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:12:45.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+Time,07-13-2023 00:12:46.604,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:12:47.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:12:48.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:12:49.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:12:50.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+07-13-2023 00:17:00.554: Response to client sent: Time,07-13-2023 00:12:51.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:12:52.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:12:53.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:12:54.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:12:55.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+Time,07-13-2023 00:12:56.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:12:57.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:12:58.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862100
+Time,07-13-2023 00:12:59.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:13:00.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:13:01.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+07-13-2023 00:17:00.555: Response to client sent: Time,07-13-2023 00:13:02.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:13:03.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:13:04.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:13:05.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863200
+Time,07-13-2023 00:13:06.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:13:07.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:13:08.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:13:09.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:13:10.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:13:11.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859500
+Time,07-13-2023 00:13:12.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+07-13-2023 00:17:00.555: Response to client sent: Time,07-13-2023 00:13:13.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859000
+Time,07-13-2023 00:13:14.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859000
+Time,07-13-2023 00:13:15.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+Time,07-13-2023 00:13:16.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859100
+Time,07-13-2023 00:13:17.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+Time,07-13-2023 00:13:18.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859500
+Time,07-13-2023 00:13:19.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:13:20.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:13:21.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:13:22.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:13:23.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+07-13-2023 00:17:00.555: Response to client sent: Time,07-13-2023 00:13:24.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+Time,07-13-2023 00:13:25.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:13:26.601,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:13:27.601,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:13:28.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:13:29.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:13:30.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:13:31.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:13:32.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:13:33.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:13:34.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+07-13-2023 00:17:00.556: Response to client sent: Time,07-13-2023 00:13:35.604,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:13:36.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:13:37.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:13:38.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+Time,07-13-2023 00:13:39.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859500
+Time,07-13-2023 00:13:40.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:13:41.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861200
+Time,07-13-2023 00:13:42.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:13:43.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:13:44.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:13:45.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+07-13-2023 00:17:00.556: Response to client sent: Time,07-13-2023 00:13:46.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859400
+Time,07-13-2023 00:13:47.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+Time,07-13-2023 00:13:48.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:13:49.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859300
+Time,07-13-2023 00:13:50.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:13:51.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:13:52.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+Time,07-13-2023 00:13:53.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+Time,07-13-2023 00:13:54.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:13:55.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862900
+Time,07-13-2023 00:13:56.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+07-13-2023 00:17:00.556: Response to client sent: Time,07-13-2023 00:13:57.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:13:58.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:13:59.603,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:14:00.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+Time,07-13-2023 00:14:01.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:14:02.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861900
+Time,07-13-2023 00:14:03.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859300
+Time,07-13-2023 00:14:04.608,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+Time,07-13-2023 00:14:05.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:14:06.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:14:07.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+07-13-2023 00:17:00.557: Response to client sent: Time,07-13-2023 00:14:08.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+Time,07-13-2023 00:14:09.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:14:10.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:14:11.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859000
+Time,07-13-2023 00:14:12.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859300
+Time,07-13-2023 00:14:13.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859500
+Time,07-13-2023 00:14:14.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859100
+Time,07-13-2023 00:14:15.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859500
+Time,07-13-2023 00:14:16.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:14:17.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:14:18.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+07-13-2023 00:17:00.557: Response to client sent: Time,07-13-2023 00:14:19.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+Time,07-13-2023 00:14:20.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+Time,07-13-2023 00:14:21.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:14:22.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:14:23.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:14:24.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:14:25.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:14:26.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:14:27.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+Time,07-13-2023 00:14:28.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:14:29.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859200
+07-13-2023 00:17:00.557: Response to client sent: Time,07-13-2023 00:14:30.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+Time,07-13-2023 00:14:31.602,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862300
+Time,07-13-2023 00:14:32.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:14:33.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859100
+Time,07-13-2023 00:14:34.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.858900
+Time,07-13-2023 00:14:35.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859500
+Time,07-13-2023 00:14:36.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+Time,07-13-2023 00:14:37.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+Time,07-13-2023 00:14:38.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861600
+Time,07-13-2023 00:14:39.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:14:40.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+07-13-2023 00:17:00.558: Response to client sent: Time,07-13-2023 00:14:41.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859200
+Time,07-13-2023 00:14:42.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+Time,07-13-2023 00:14:43.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:14:44.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:14:45.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:14:46.579,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:14:47.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:14:48.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:14:49.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:14:50.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:14:51.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+07-13-2023 00:17:00.558: Response to client sent: Time,07-13-2023 00:14:52.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:14:53.606,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:14:54.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:14:55.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861100
+Time,07-13-2023 00:14:56.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:14:57.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:14:58.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:14:59.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:15:00.606,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:15:01.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:15:02.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+07-13-2023 00:17:00.558: Response to client sent: Time,07-13-2023 00:15:03.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:15:04.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+Time,07-13-2023 00:15:05.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:15:06.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:15:07.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862700
+Time,07-13-2023 00:15:08.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:15:09.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:15:10.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:15:11.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:15:12.602,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:15:13.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859400
+07-13-2023 00:17:00.559: Response to client sent: Time,07-13-2023 00:15:14.579,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:15:15.602,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:15:16.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859100
+Time,07-13-2023 00:15:17.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+Time,07-13-2023 00:15:18.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859500
+Time,07-13-2023 00:15:19.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:15:20.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:15:21.580,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:15:22.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+Time,07-13-2023 00:15:23.604,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+Time,07-13-2023 00:15:24.601,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+07-13-2023 00:17:00.559: Response to client sent: Time,07-13-2023 00:15:25.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859400
+Time,07-13-2023 00:15:26.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+Time,07-13-2023 00:15:27.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:15:28.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:15:29.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:15:30.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:15:31.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859500
+Time,07-13-2023 00:15:32.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+Time,07-13-2023 00:15:33.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:15:34.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:15:35.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+07-13-2023 00:17:00.559: Response to client sent: Time,07-13-2023 00:15:36.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:15:37.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860200
+Time,07-13-2023 00:15:38.599,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:15:39.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:15:40.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:15:41.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:15:42.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:15:43.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860800
+Time,07-13-2023 00:15:44.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859100
+Time,07-13-2023 00:15:45.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:15:46.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+07-13-2023 00:17:00.560: Response to client sent: Time,07-13-2023 00:15:47.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:15:48.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:15:49.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+Time,07-13-2023 00:15:50.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:15:51.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:15:52.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:15:53.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:15:54.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:15:55.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:15:56.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860500
+Time,07-13-2023 00:15:57.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+07-13-2023 00:17:00.560: Response to client sent: Time,07-13-2023 00:15:58.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:15:59.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:16:00.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+Time,07-13-2023 00:16:01.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+Time,07-13-2023 00:16:02.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:16:03.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:16:04.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862000
+Time,07-13-2023 00:16:05.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861300
+Time,07-13-2023 00:16:06.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859300
+Time,07-13-2023 00:16:07.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+Time,07-13-2023 00:16:08.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+07-13-2023 00:17:00.561: Response to client sent: Time,07-13-2023 00:16:09.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:16:10.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860300
+Time,07-13-2023 00:16:11.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861800
+Time,07-13-2023 00:16:12.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:16:13.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859400
+Time,07-13-2023 00:16:14.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859300
+Time,07-13-2023 00:16:15.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859800
+Time,07-13-2023 00:16:16.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859300
+Time,07-13-2023 00:16:17.594,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859500
+Time,07-13-2023 00:16:18.580,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860600
+Time,07-13-2023 00:16:19.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+07-13-2023 00:17:00.561: Response to client sent: Time,07-13-2023 00:16:20.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.858700
+Time,07-13-2023 00:16:21.591,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859400
+Time,07-13-2023 00:16:22.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859300
+Time,07-13-2023 00:16:23.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859400
+Time,07-13-2023 00:16:24.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859200
+Time,07-13-2023 00:16:25.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861400
+Time,07-13-2023 00:16:26.583,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:16:27.589,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:16:28.605,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:16:29.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:16:30.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+07-13-2023 00:17:00.561: Response to client sent: Time,07-13-2023 00:16:31.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:16:32.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+Time,07-13-2023 00:16:33.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861500
+Time,07-13-2023 00:16:34.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860100
+Time,07-13-2023 00:16:35.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:16:36.604,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860700
+Time,07-13-2023 00:16:37.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860000
+Time,07-13-2023 00:16:38.593,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859600
+Time,07-13-2023 00:16:39.597,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.861000
+Time,07-13-2023 00:16:40.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.863000
+Time,07-13-2023 00:16:41.582,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860900
+07-13-2023 00:17:00.562: Response to client sent: Time,07-13-2023 00:16:42.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:16:43.585,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.860400
+Time,07-13-2023 00:16:44.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:16:45.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:16:46.590,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859700
+Time,07-13-2023 00:16:47.587,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.862100
+Time,07-13-2023 00:16:48.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.859900
+Time,07-13-2023 00:16:49.596,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.858300
+Time,07-13-2023 00:16:50.592,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.837900
+Time,07-13-2023 00:16:51.586,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.808900
+Time,07-13-2023 00:16:52.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.807800
+07-13-2023 00:17:00.562: Response to client sent: Time,07-13-2023 00:16:53.601,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.807400
+Time,07-13-2023 00:16:54.598,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.811100
+Time,07-13-2023 00:16:55.588,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.810000
+Time,07-13-2023 00:16:56.595,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.807300
+Time,07-13-2023 00:16:57.600,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.807100
+Time,07-13-2023 00:16:58.581,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.806900
+Time,07-13-2023 00:16:59.584,Watts,164.200000,Volts,247.410000,Amps,0.767000,PF,0.807400
+07-13-2023 00:17:00.585: Response to client sent: Uncertainty,0.004514,0.004483,0.005489,612,0,612,0
+07-13-2023 00:17:00.586: Response to client sent: Watts,164.100735,118.730000,164.200000,612,0,612
+07-13-2023 00:17:00.654: Volt range set to 300.000000V
+07-13-2023 00:17:02.176: Response to client sent: Range V changed
+07-13-2023 00:17:02.182: Amp range set to 1.000000A
+07-13-2023 00:17:03.700: Response to client sent: Range A changed
+07-13-2023 00:17:03.702: No data returned by socket read.
+07-13-2023 00:17:03.703: Shutting connection down...
+07-13-2023 00:17:03.703: Connection is down.
+07-13-2023 00:17:03.703: Waiting for a connection...
