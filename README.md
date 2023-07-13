@@ -1,21 +1,21 @@
 Please download [summary.xlsx](summary.xlsx) to view the most recent results. [This page](https://docs.google.com/spreadsheets/d/e/2PACX-1vSCu8F7Hwck-AGJ5kWxi2G3xhO5MJoc_igybvsxjCt-2fEEYyf2BIcR0rTXW0eUzg/pubhtml) shows the results which may not be the latest. 
  ```
-[2023-07-13 10:34:16,878 submission_checker.py:3349 INFO] ---
-[2023-07-13 10:34:16,878 submission_checker.py:3350 INFO] Results=2931, NoResults=0, Power Results=729
-[2023-07-13 10:34:16,878 submission_checker.py:3357 INFO] ---
-[2023-07-13 10:34:16,878 submission_checker.py:3358 INFO] Closed Results=12, Closed Power Results=0
+[2023-07-13 10:41:28,782 submission_checker.py:3349 INFO] ---
+[2023-07-13 10:41:28,782 submission_checker.py:3350 INFO] Results=2931, NoResults=0, Power Results=729
+[2023-07-13 10:41:28,783 submission_checker.py:3357 INFO] ---
+[2023-07-13 10:41:28,783 submission_checker.py:3358 INFO] Closed Results=12, Closed Power Results=0
 
-[2023-07-13 10:34:16,878 submission_checker.py:3363 INFO] Open Results=2919, Open Power Results=729
+[2023-07-13 10:41:28,783 submission_checker.py:3363 INFO] Open Results=2919, Open Power Results=729
 
-[2023-07-13 10:34:16,878 submission_checker.py:3368 INFO] Network Results=0, Network Power Results=0
+[2023-07-13 10:41:28,783 submission_checker.py:3368 INFO] Network Results=0, Network Power Results=0
 
-[2023-07-13 10:34:16,878 submission_checker.py:3373 INFO] ---
-[2023-07-13 10:34:16,878 submission_checker.py:3375 INFO] Systems=17, Power Systems=3
-[2023-07-13 10:34:16,878 submission_checker.py:3376 INFO] Closed Systems=4, Closed Power Systems=0
-[2023-07-13 10:34:16,878 submission_checker.py:3381 INFO] Open Systems=13, Open Power Systems=3
-[2023-07-13 10:34:16,878 submission_checker.py:3386 INFO] Network Systems=0, Network Power Systems=0
-[2023-07-13 10:34:16,878 submission_checker.py:3391 INFO] ---
-[2023-07-13 10:34:16,878 submission_checker.py:3396 INFO] SUMMARY: submission looks OK
+[2023-07-13 10:41:28,783 submission_checker.py:3373 INFO] ---
+[2023-07-13 10:41:28,783 submission_checker.py:3375 INFO] Systems=17, Power Systems=3
+[2023-07-13 10:41:28,783 submission_checker.py:3376 INFO] Closed Systems=4, Closed Power Systems=0
+[2023-07-13 10:41:28,783 submission_checker.py:3381 INFO] Open Systems=13, Open Power Systems=3
+[2023-07-13 10:41:28,783 submission_checker.py:3386 INFO] Network Systems=0, Network Power Systems=0
+[2023-07-13 10:41:28,783 submission_checker.py:3391 INFO] ---
+[2023-07-13 10:41:28,783 submission_checker.py:3396 INFO] SUMMARY: submission looks OK
 
 ```
 
