@@ -1,0 +1,55 @@
+client 2023-07-14 21:57:11,479 [INFO] Creating output directory '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-tf-v2.12.0-default_config/resnet50/offline/performance/tmp_power'
+client 2023-07-14 21:57:11,482 [INFO] Sending command to the server: 'mlcommons/power client v3'
+client 2023-07-14 21:57:11,484 [INFO] Got response: 'mlcommons/power server v3'
+client 2023-07-14 21:57:11,485 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-14 21:57:11,500 [INFO] NTP:offset = -0.003 s, delay = 0.013 s 
+client 2023-07-14 21:57:11,500 [INFO] Sending command to the server: 'time'
+client 2023-07-14 21:57:11,503 [INFO] Got response: '1689368231.3583837'
+client 2023-07-14 21:57:11,503 [INFO] The time difference between the client and the server is within range 141.838 ms..144.841 ms
+client 2023-07-14 21:57:11,503 [INFO] Sending command to the server: 'new,,d434118d-206e-4265-a446-e63c4ba7be0f'
+client 2023-07-14 21:57:11,505 [INFO] Got response: 'OK 2023-07-14_21-57-11,61f2aa2b-6edc-41ae-b9c7-02a5c1fa7dcc'
+client 2023-07-14 21:57:11,505 [INFO] Session id is '2023-07-14_21-57-11'
+client 2023-07-14 21:57:11,505 [INFO] Sources: {"sources": {"__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "client.py": "33ca4f26368777ac06e01f9567b714a4b8063886", "lib/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "lib/client.py": "ac2aa093c8e8bbc9569b9e2a3471bc64e58a2258", "lib/common.py": "611d8b29633d331eb19c9455ea3b5fa3284ed6df", "lib/external/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "lib/external/ntplib.py": "4da8f970656505a40483206ef2b5d3dd5e81711d", "lib/server.py": "c7af63c31bb2fbedea4345f571f6e3507d268ada", "lib/source_hashes.py": "60a2e02193209e8d392803326208d5466342da18", "lib/summary.py": "aa92f0a3f975eecd44d3c0cd0236342ccc9f941d", "lib/time_sync.py": "122eba67a9abc85635223e054def53be1367ade2", "server.py": "c3f90f2f7eeb4db30727556d0c815ebc89b3d28b", "tests/unit/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "tests/unit/test_server.py": "948c1995d4008bc2aa6c4046a34ffa3858d6d671", "tests/unit/test_source_hashes.py": "00468a2907583c593e6574a1f6b404e4651c221a"}, "modules": {"ptd_client_server.lib.client": "lib/client.py", "ptd_client_server.lib.common": "lib/common.py", "ptd_client_server.lib.external.ntplib": "lib/external/ntplib.py", "ptd_client_server.lib.source_hashes": "lib/source_hashes.py", "ptd_client_server.lib.summary": "lib/summary.py", "ptd_client_server.lib.time_sync": "lib/time_sync.py"}}
+client 2023-07-14 21:57:11,506 [INFO] Running workload in ranging mode
+client 2023-07-14 21:57:11,506 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-14 21:57:11,527 [INFO] NTP:offset = -0.005 s, delay = 0.021 s 
+client 2023-07-14 21:57:11,527 [INFO] Sending command to the server: 'time'
+client 2023-07-14 21:57:11,530 [INFO] Got response: '1689368231.3882527'
+client 2023-07-14 21:57:11,530 [INFO] The time difference between the client and the server is within range 139.380 ms..142.281 ms
+client 2023-07-14 21:57:11,530 [INFO] Sending command to the server: 'session,2023-07-14_21-57-11,start,ranging'
+client 2023-07-14 21:57:35,390 [INFO] Got response: 'OK'
+client 2023-07-14 21:57:35,390 [INFO] Sending command to the server: 'time'
+client 2023-07-14 21:57:35,393 [INFO] Got response: '1689368255.256895'
+client 2023-07-14 21:57:35,393 [INFO] The time difference between the client and the server is within range 133.687 ms..136.949 ms
+client 2023-07-14 21:57:35,393 [INFO] Running the workload 'CM_MLPERF_RUN_COUNT=$(cat ${CM_RUN_DIR}/count.txt); echo ${CM_MLPERF_RUN_COUNT}; CM_MLPERF_RUN_COUNT=$((CM_MLPERF_RUN_COUNT+1)); echo ${CM_MLPERF_RUN_COUNT} > ${CM_RUN_DIR}/count.txt && if [ ${CM_MLPERF_RUN_COUNT} -eq "1" ]; then export CM_MLPERF_USER_CONF=${CM_MLPERF_RANGING_USER_CONF}; else export CM_MLPERF_USER_CONF=${CM_MLPERF_TESTING_USER_CONF}; fi && cd "/home/arjun/CM/repos/local/cache/c042bda7a3d1463a/inference/vision/classification_and_detection" && OUTPUT_DIR="/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-tf-v2.12.0-default_config/resnet50/offline/performance/run_1" ./run_local.sh tf resnet50 cpu --scenario Offline --mlperf_conf "/home/arjun/CM/repos/local/cache/c042bda7a3d1463a/inference/mlperf.conf" --threads 32 --user_conf "${CM_MLPERF_USER_CONF}" --use_preprocessed_dataset --cache_dir /home/arjun/CM/repos/local/cache/53e23c1f408c4897 --dataset-list /home/arjun/CM/repos/local/cache/534a68d2aebf47ba/data/val.txt'
+client 2023-07-14 22:03:31,953 [INFO] Sending command to the server: 'time'
+client 2023-07-14 22:03:31,955 [INFO] Got response: '1689368611.8146062'
+client 2023-07-14 22:03:31,955 [INFO] The time difference between the client and the server is within range 138.656 ms..141.143 ms
+client 2023-07-14 22:03:31,955 [INFO] Sending command to the server: 'session,2023-07-14_21-57-11,stop,ranging'
+client 2023-07-14 22:03:42,842 [INFO] Got response: 'OK'
+client 2023-07-14 22:03:42,842 [INFO] Sending command to the server: 'time'
+client 2023-07-14 22:03:42,845 [INFO] Got response: '1689368622.7037928'
+client 2023-07-14 22:03:42,845 [INFO] The time difference between the client and the server is within range 139.148 ms..141.838 ms
+client 2023-07-14 22:03:42,847 [INFO] Copying loadgen logs from '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-tf-v2.12.0-default_config/resnet50/offline/performance/run_1' to '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-tf-v2.12.0-default_config/resnet50/offline/performance/tmp_power/ranging'
+client 2023-07-14 22:03:42,847 [INFO] Running workload in testing mode
+client 2023-07-14 22:03:42,847 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-14 22:03:42,862 [INFO] NTP:offset = -0.002 s, delay = 0.014 s 
+client 2023-07-14 22:03:42,862 [INFO] Sending command to the server: 'time'
+client 2023-07-14 22:03:42,864 [INFO] Got response: '1689368622.714198'
+client 2023-07-14 22:03:42,864 [INFO] The time difference between the client and the server is within range 148.480 ms..150.638 ms
+client 2023-07-14 22:03:42,864 [INFO] Sending command to the server: 'session,2023-07-14_21-57-11,start,testing'
+client 2023-07-14 22:03:55,920 [INFO] Got response: 'OK'
+client 2023-07-14 22:03:55,920 [INFO] Sending command to the server: 'time'
+client 2023-07-14 22:03:55,923 [INFO] Got response: '1689368635.7760751'
+client 2023-07-14 22:03:55,923 [INFO] The time difference between the client and the server is within range 144.819 ms..147.718 ms
+client 2023-07-14 22:03:55,923 [INFO] Running the workload 'CM_MLPERF_RUN_COUNT=$(cat ${CM_RUN_DIR}/count.txt); echo ${CM_MLPERF_RUN_COUNT}; CM_MLPERF_RUN_COUNT=$((CM_MLPERF_RUN_COUNT+1)); echo ${CM_MLPERF_RUN_COUNT} > ${CM_RUN_DIR}/count.txt && if [ ${CM_MLPERF_RUN_COUNT} -eq "1" ]; then export CM_MLPERF_USER_CONF=${CM_MLPERF_RANGING_USER_CONF}; else export CM_MLPERF_USER_CONF=${CM_MLPERF_TESTING_USER_CONF}; fi && cd "/home/arjun/CM/repos/local/cache/c042bda7a3d1463a/inference/vision/classification_and_detection" && OUTPUT_DIR="/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-tf-v2.12.0-default_config/resnet50/offline/performance/run_1" ./run_local.sh tf resnet50 cpu --scenario Offline --mlperf_conf "/home/arjun/CM/repos/local/cache/c042bda7a3d1463a/inference/mlperf.conf" --threads 32 --user_conf "${CM_MLPERF_USER_CONF}" --use_preprocessed_dataset --cache_dir /home/arjun/CM/repos/local/cache/53e23c1f408c4897 --dataset-list /home/arjun/CM/repos/local/cache/534a68d2aebf47ba/data/val.txt'
+client 2023-07-14 22:15:18,694 [INFO] Sending command to the server: 'time'
+client 2023-07-14 22:15:18,698 [INFO] Got response: '1689369318.5437841'
+client 2023-07-14 22:15:18,698 [INFO] The time difference between the client and the server is within range 150.576 ms..154.498 ms
+client 2023-07-14 22:15:18,698 [INFO] Sending command to the server: 'session,2023-07-14_21-57-11,stop,testing'
+client 2023-07-14 22:15:28,988 [INFO] Got response: 'OK'
+client 2023-07-14 22:15:28,988 [INFO] Sending command to the server: 'time'
+client 2023-07-14 22:15:29,004 [INFO] Got response: '1689369328.8510354'
+client 2023-07-14 22:15:29,004 [INFO] The time difference between the client and the server is within range 137.385 ms..153.078 ms
+client 2023-07-14 22:15:29,004 [INFO] Copying loadgen logs from '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-tf-v2.12.0-default_config/resnet50/offline/performance/run_1' to '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-tf-v2.12.0-default_config/resnet50/offline/performance/tmp_power/run_1'
+client 2023-07-14 22:15:29,011 [INFO] Done runs
