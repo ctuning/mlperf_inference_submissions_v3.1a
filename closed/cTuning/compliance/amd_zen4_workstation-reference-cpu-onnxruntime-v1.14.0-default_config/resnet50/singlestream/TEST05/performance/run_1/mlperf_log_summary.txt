@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : PySUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 6565929
+90th percentile latency (ns) : 6498067
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (91540).
- * Would discard 8941 highest latency queries.
- * Early stopping 90th percentile estimate: 6566185
- * Early stopping 99th percentile estimate: 6593315
+ * Processed at least 64 queries (92560).
+ * Would discard 9042 highest latency queries.
+ * Early stopping 90th percentile estimate: 6498408
+ * Early stopping 99th percentile estimate: 6552367
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 152.56
-QPS w/o loadgen overhead        : 152.75
+QPS w/ loadgen overhead         : 154.26
+QPS w/o loadgen overhead        : 154.47
 
-Min latency (ns)                : 6469278
-Max latency (ns)                : 9059180
-Mean latency (ns)               : 6546443
-50.00 percentile latency (ns)   : 6544582
-90.00 percentile latency (ns)   : 6565929
-95.00 percentile latency (ns)   : 6573206
-97.00 percentile latency (ns)   : 6578559
-99.00 percentile latency (ns)   : 6592080
-99.90 percentile latency (ns)   : 6740611
+Min latency (ns)                : 6394038
+Max latency (ns)                : 8761737
+Mean latency (ns)               : 6473880
+50.00 percentile latency (ns)   : 6469039
+90.00 percentile latency (ns)   : 6498067
+95.00 percentile latency (ns)   : 6508201
+97.00 percentile latency (ns)   : 6516289
+99.00 percentile latency (ns)   : 6547725
+99.90 percentile latency (ns)   : 8120087
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 105.263
+target_qps : 123.29
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000

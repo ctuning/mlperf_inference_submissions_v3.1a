@@ -2,45 +2,37 @@
 MLPerf Results Summary
 ================================================
 SUT name : PySUT
-Scenario : SingleStream
+Scenario : Offline
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 6565929
+Samples per second: 253.582
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
-Early Stopping Result:
- * Processed at least 64 queries (91540).
- * Would discard 8941 highest latency queries.
- * Early stopping 90th percentile estimate: 6566185
- * Early stopping 99th percentile estimate: 6593315
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 152.56
-QPS w/o loadgen overhead        : 152.75
-
-Min latency (ns)                : 6469278
-Max latency (ns)                : 9059180
-Mean latency (ns)               : 6546443
-50.00 percentile latency (ns)   : 6544582
-90.00 percentile latency (ns)   : 6565929
-95.00 percentile latency (ns)   : 6573206
-97.00 percentile latency (ns)   : 6578559
-99.00 percentile latency (ns)   : 6592080
-99.90 percentile latency (ns)   : 6740611
+Min latency (ns)                : 2603334158
+Max latency (ns)                : 661345248243
+Mean latency (ns)               : 332253134488
+50.00 percentile latency (ns)   : 332304055255
+90.00 percentile latency (ns)   : 597369698616
+95.00 percentile latency (ns)   : 630499244519
+97.00 percentile latency (ns)   : 643626198852
+99.00 percentile latency (ns)   : 656998873145
+99.90 percentile latency (ns)   : 661269657644
 
 ================================================
 Test Parameters Used
 ================================================
-samples_per_query : 1
-target_qps : 105.263
+samples_per_query : 167705
+target_qps : 254.099
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
-max_duration (ms): 620000
-min_query_count : 100
+max_duration (ms): 0
+min_query_count : 1
 max_query_count : 0
 qsl_rng_seed : 793197339507417767
 sample_index_rng_seed : 255610748586851044

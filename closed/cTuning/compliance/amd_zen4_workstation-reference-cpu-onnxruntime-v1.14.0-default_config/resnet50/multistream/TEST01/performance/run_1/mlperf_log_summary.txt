@@ -2,40 +2,37 @@
 MLPerf Results Summary
 ================================================
 SUT name : PySUT
-Scenario : SingleStream
+Scenario : MultiStream
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 6546278
+99th percentile latency (ns) : 33330824
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (91671).
- * Would discard 8954 highest latency queries.
- * Early stopping 90th percentile estimate: 6546520
- * Early stopping 99th percentile estimate: 6586968
+ * Processed at least 662 queries (18111).
+ * Would discard 149 highest latency queries.
+ * Early stopping 99th percentile estimate: 33341023
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 152.78
-QPS w/o loadgen overhead        : 152.98
-
-Min latency (ns)                : 6443823
-Max latency (ns)                : 10408268
-Mean latency (ns)               : 6536833
-50.00 percentile latency (ns)   : 6524900
-90.00 percentile latency (ns)   : 6546278
-95.00 percentile latency (ns)   : 6554082
-97.00 percentile latency (ns)   : 6560461
-99.00 percentile latency (ns)   : 6582879
-99.90 percentile latency (ns)   : 8599482
+Per-query latency:  
+Min latency (ns)                : 32611444
+Max latency (ns)                : 53203782
+Mean latency (ns)               : 33114044
+50.00 percentile latency (ns)   : 33078789
+90.00 percentile latency (ns)   : 33182955
+95.00 percentile latency (ns)   : 33218835
+97.00 percentile latency (ns)   : 33249195
+99.00 percentile latency (ns)   : 33330824
+99.90 percentile latency (ns)   : 52100578
 
 ================================================
 Test Parameters Used
 ================================================
-samples_per_query : 1
-target_qps : 105.263
+samples_per_query : 8
+target_qps : 31.5231
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
