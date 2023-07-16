@@ -1,0 +1,55 @@
+client 2023-07-15 01:31:51,388 [INFO] Creating output directory '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-gpu-pytorch-v1.13.0-default_config/gptj-99/singlestream/performance/tmp_power'
+client 2023-07-15 01:31:51,389 [INFO] Sending command to the server: 'mlcommons/power client v3'
+client 2023-07-15 01:31:51,391 [INFO] Got response: 'mlcommons/power server v3'
+client 2023-07-15 01:31:51,391 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-15 01:31:51,407 [INFO] NTP:offset = 0.001 s, delay = 0.014 s 
+client 2023-07-15 01:31:51,407 [INFO] Sending command to the server: 'time'
+client 2023-07-15 01:31:51,414 [INFO] Got response: '1689381111.227849'
+client 2023-07-15 01:31:51,414 [INFO] The time difference between the client and the server is within range 179.617 ms..186.379 ms
+client 2023-07-15 01:31:51,414 [INFO] Sending command to the server: 'new,,d02df570-65bf-4d3c-bd1d-4e57e7015ba1'
+client 2023-07-15 01:31:51,417 [INFO] Got response: 'OK 2023-07-15_01-31-51,5435a33f-e6a4-4b09-b7e3-f323822f3ae8'
+client 2023-07-15 01:31:51,417 [INFO] Session id is '2023-07-15_01-31-51'
+client 2023-07-15 01:31:51,417 [INFO] Sources: {"sources": {"__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "client.py": "33ca4f26368777ac06e01f9567b714a4b8063886", "lib/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "lib/client.py": "ac2aa093c8e8bbc9569b9e2a3471bc64e58a2258", "lib/common.py": "611d8b29633d331eb19c9455ea3b5fa3284ed6df", "lib/external/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "lib/external/ntplib.py": "4da8f970656505a40483206ef2b5d3dd5e81711d", "lib/server.py": "c7af63c31bb2fbedea4345f571f6e3507d268ada", "lib/source_hashes.py": "60a2e02193209e8d392803326208d5466342da18", "lib/summary.py": "aa92f0a3f975eecd44d3c0cd0236342ccc9f941d", "lib/time_sync.py": "122eba67a9abc85635223e054def53be1367ade2", "server.py": "c3f90f2f7eeb4db30727556d0c815ebc89b3d28b", "tests/unit/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "tests/unit/test_server.py": "948c1995d4008bc2aa6c4046a34ffa3858d6d671", "tests/unit/test_source_hashes.py": "00468a2907583c593e6574a1f6b404e4651c221a"}, "modules": {"ptd_client_server.lib.client": "lib/client.py", "ptd_client_server.lib.common": "lib/common.py", "ptd_client_server.lib.external.ntplib": "lib/external/ntplib.py", "ptd_client_server.lib.source_hashes": "lib/source_hashes.py", "ptd_client_server.lib.summary": "lib/summary.py", "ptd_client_server.lib.time_sync": "lib/time_sync.py"}}
+client 2023-07-15 01:31:51,417 [INFO] Running workload in ranging mode
+client 2023-07-15 01:31:51,417 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-15 01:31:51,431 [INFO] NTP:offset = -0.002 s, delay = 0.013 s 
+client 2023-07-15 01:31:51,431 [INFO] Sending command to the server: 'time'
+client 2023-07-15 01:31:51,433 [INFO] Got response: '1689381111.247883'
+client 2023-07-15 01:31:51,433 [INFO] The time difference between the client and the server is within range 183.854 ms..186.082 ms
+client 2023-07-15 01:31:51,434 [INFO] Sending command to the server: 'session,2023-07-15_01-31-51,start,ranging'
+client 2023-07-15 01:32:15,254 [INFO] Got response: 'OK'
+client 2023-07-15 01:32:15,254 [INFO] Sending command to the server: 'time'
+client 2023-07-15 01:32:15,256 [INFO] Got response: '1689381135.0699685'
+client 2023-07-15 01:32:15,256 [INFO] The time difference between the client and the server is within range 184.151 ms..187.018 ms
+client 2023-07-15 01:32:15,257 [INFO] Running the workload 'CM_MLPERF_RUN_COUNT=$(cat ${CM_RUN_DIR}/count.txt); echo ${CM_MLPERF_RUN_COUNT}; CM_MLPERF_RUN_COUNT=$((CM_MLPERF_RUN_COUNT+1)); echo ${CM_MLPERF_RUN_COUNT} > ${CM_RUN_DIR}/count.txt && if [ ${CM_MLPERF_RUN_COUNT} -eq "1" ]; then export CM_MLPERF_USER_CONF=${CM_MLPERF_RANGING_USER_CONF}; else export CM_MLPERF_USER_CONF=${CM_MLPERF_TESTING_USER_CONF}; fi && cd "/home/arjun/CM/repos/local/cache/c042bda7a3d1463a/inference/language/gpt-j" && /usr/bin/python3 main.py --model-path=/home/arjun/CM/repos/local/cache/06b99b95613c4230/gpt-j/checkpoint-final --dataset-path=/home/arjun/CM/repos/local/cache/f1ccbc5ced774220/install/cnn_eval.json --scenario SingleStream --mlperf_conf "/home/arjun/CM/repos/local/cache/c042bda7a3d1463a/inference/mlperf.conf" --dtype bfloat16 --user_conf "${CM_MLPERF_USER_CONF}" --gpu'
+client 2023-07-15 01:38:18,695 [INFO] Sending command to the server: 'time'
+client 2023-07-15 01:38:18,697 [INFO] Got response: '1689381498.511599'
+client 2023-07-15 01:38:18,697 [INFO] The time difference between the client and the server is within range 183.712 ms..186.234 ms
+client 2023-07-15 01:38:18,697 [INFO] Sending command to the server: 'session,2023-07-15_01-31-51,stop,ranging'
+client 2023-07-15 01:38:29,444 [INFO] Got response: 'OK'
+client 2023-07-15 01:38:29,444 [INFO] Sending command to the server: 'time'
+client 2023-07-15 01:38:29,449 [INFO] Got response: '1689381509.2629046'
+client 2023-07-15 01:38:29,449 [INFO] The time difference between the client and the server is within range 182.003 ms..186.220 ms
+client 2023-07-15 01:38:29,451 [INFO] Copying loadgen logs from '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-gpu-pytorch-v1.13.0-default_config/gptj-99/singlestream/performance/run_1' to '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-gpu-pytorch-v1.13.0-default_config/gptj-99/singlestream/performance/tmp_power/ranging'
+client 2023-07-15 01:38:29,456 [INFO] Running workload in testing mode
+client 2023-07-15 01:38:29,456 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-15 01:38:29,469 [INFO] NTP:offset = -0.001 s, delay = 0.013 s 
+client 2023-07-15 01:38:29,469 [INFO] Sending command to the server: 'time'
+client 2023-07-15 01:38:29,473 [INFO] Got response: '1689381509.2842665'
+client 2023-07-15 01:38:29,473 [INFO] The time difference between the client and the server is within range 185.478 ms..188.830 ms
+client 2023-07-15 01:38:29,473 [INFO] Sending command to the server: 'session,2023-07-15_01-31-51,start,testing'
+client 2023-07-15 01:38:42,532 [INFO] Got response: 'OK'
+client 2023-07-15 01:38:42,533 [INFO] Sending command to the server: 'time'
+client 2023-07-15 01:38:42,535 [INFO] Got response: '1689381522.347327'
+client 2023-07-15 01:38:42,535 [INFO] The time difference between the client and the server is within range 185.703 ms..188.424 ms
+client 2023-07-15 01:38:42,535 [INFO] Running the workload 'CM_MLPERF_RUN_COUNT=$(cat ${CM_RUN_DIR}/count.txt); echo ${CM_MLPERF_RUN_COUNT}; CM_MLPERF_RUN_COUNT=$((CM_MLPERF_RUN_COUNT+1)); echo ${CM_MLPERF_RUN_COUNT} > ${CM_RUN_DIR}/count.txt && if [ ${CM_MLPERF_RUN_COUNT} -eq "1" ]; then export CM_MLPERF_USER_CONF=${CM_MLPERF_RANGING_USER_CONF}; else export CM_MLPERF_USER_CONF=${CM_MLPERF_TESTING_USER_CONF}; fi && cd "/home/arjun/CM/repos/local/cache/c042bda7a3d1463a/inference/language/gpt-j" && /usr/bin/python3 main.py --model-path=/home/arjun/CM/repos/local/cache/06b99b95613c4230/gpt-j/checkpoint-final --dataset-path=/home/arjun/CM/repos/local/cache/f1ccbc5ced774220/install/cnn_eval.json --scenario SingleStream --mlperf_conf "/home/arjun/CM/repos/local/cache/c042bda7a3d1463a/inference/mlperf.conf" --dtype bfloat16 --user_conf "${CM_MLPERF_USER_CONF}" --gpu'
+client 2023-07-15 01:49:41,987 [INFO] Sending command to the server: 'time'
+client 2023-07-15 01:49:41,991 [INFO] Got response: '1689382181.8014934'
+client 2023-07-15 01:49:41,991 [INFO] The time difference between the client and the server is within range 186.385 ms..189.632 ms
+client 2023-07-15 01:49:41,991 [INFO] Sending command to the server: 'session,2023-07-15_01-31-51,stop,testing'
+client 2023-07-15 01:49:53,103 [INFO] Got response: 'OK'
+client 2023-07-15 01:49:53,103 [INFO] Sending command to the server: 'time'
+client 2023-07-15 01:49:53,119 [INFO] Got response: '1689382192.9269884'
+client 2023-07-15 01:49:53,119 [INFO] The time difference between the client and the server is within range 176.669 ms..192.253 ms
+client 2023-07-15 01:49:53,119 [INFO] Copying loadgen logs from '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-gpu-pytorch-v1.13.0-default_config/gptj-99/singlestream/performance/run_1' to '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-gpu-pytorch-v1.13.0-default_config/gptj-99/singlestream/performance/tmp_power/run_1'
+client 2023-07-15 01:49:53,119 [INFO] Done runs
