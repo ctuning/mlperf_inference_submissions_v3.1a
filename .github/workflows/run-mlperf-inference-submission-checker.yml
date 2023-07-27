@@ -30,4 +30,4 @@ jobs:
         cm run script --quiet --tags=get,sys-utils-cm
     - name: Run MLPerf Inference Submission Checker
       run: |
-        cmr "run mlc mlcommons mlperf inference mlperf-inference submission checker submission-checker mlc-submission-checker" --extra_args=" --skip-extra-files-in-root-check --skip-power-check" --submission_dir=./
+        cmr "run mlc mlcommons mlperf inference mlperf-inference submission checker submission-checker mlc-submission-checker" --extra_args=" --skip-extra-files-in-root-check --skip-power-check" --quiet --submission_dir=./
