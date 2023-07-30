@@ -1,0 +1,51 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : RNNT SERVER
+Scenario : Offline
+Mode     : PerformanceOnly
+Samples per second: 15472.2
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 444842315
+Max latency (ns)                : 319928061438
+Mean latency (ns)               : 203969303375
+50.00 percentile latency (ns)   : 223374034723
+90.00 percentile latency (ns)   : 308349604159
+95.00 percentile latency (ns)   : 314623647116
+97.00 percentile latency (ns)   : 316942940411
+99.00 percentile latency (ns)   : 319047054040
+99.90 percentile latency (ns)   : 319885192155
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 4950000
+target_qps : 15000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 300000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 4500000
+qsl_rng_seed : 148687905518835231
+sample_index_rng_seed : 520418551913322573
+schedule_rng_seed : 811580660758947900
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 2513
+
+1 warning encountered. See detailed log.
+
+No errors encountered during test.

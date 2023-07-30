@@ -1,0 +1,55 @@
+client 2023-07-24 22:19:09,592 [INFO] Creating output directory '/home/cmuser/results_dir/valid_results/28df27c48ad9-nvidia_original-gpu-tensorrt-vdefault-default_config/resnet50/server/performance/tmp_power'
+client 2023-07-24 22:19:09,594 [INFO] Sending command to the server: 'mlcommons/power client v3'
+client 2023-07-24 22:19:09,597 [INFO] Got response: 'mlcommons/power server v3'
+client 2023-07-24 22:19:09,597 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-24 22:19:09,756 [INFO] NTP:offset = -0.000 s, delay = 0.015 s 
+client 2023-07-24 22:19:09,757 [INFO] Sending command to the server: 'time'
+client 2023-07-24 22:19:09,761 [INFO] Got response: '1690237149.7113001'
+client 2023-07-24 22:19:09,761 [INFO] The time difference between the client and the server is within range 45.784 ms..49.792 ms
+client 2023-07-24 22:19:09,761 [INFO] Sending command to the server: 'new,,31baf260-8139-4f9a-9073-a6c3d1534070'
+client 2023-07-24 22:19:09,767 [INFO] Got response: 'OK 2023-07-24_23-19-09,22e2403e-13ca-41b6-aad6-acc69e638327'
+client 2023-07-24 22:19:09,767 [INFO] Session id is '2023-07-24_23-19-09'
+client 2023-07-24 22:19:09,767 [INFO] Sources: {"sources": {"__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "client.py": "33ca4f26368777ac06e01f9567b714a4b8063886", "lib/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "lib/client.py": "ac2aa093c8e8bbc9569b9e2a3471bc64e58a2258", "lib/common.py": "611d8b29633d331eb19c9455ea3b5fa3284ed6df", "lib/external/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "lib/external/ntplib.py": "4da8f970656505a40483206ef2b5d3dd5e81711d", "lib/server.py": "c7af63c31bb2fbedea4345f571f6e3507d268ada", "lib/source_hashes.py": "60a2e02193209e8d392803326208d5466342da18", "lib/summary.py": "aa92f0a3f975eecd44d3c0cd0236342ccc9f941d", "lib/time_sync.py": "122eba67a9abc85635223e054def53be1367ade2", "server.py": "c3f90f2f7eeb4db30727556d0c815ebc89b3d28b", "tests/unit/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "tests/unit/test_server.py": "948c1995d4008bc2aa6c4046a34ffa3858d6d671", "tests/unit/test_source_hashes.py": "00468a2907583c593e6574a1f6b404e4651c221a"}, "modules": {"ptd_client_server.lib.client": "lib/client.py", "ptd_client_server.lib.common": "lib/common.py", "ptd_client_server.lib.external.ntplib": "lib/external/ntplib.py", "ptd_client_server.lib.source_hashes": "lib/source_hashes.py", "ptd_client_server.lib.summary": "lib/summary.py", "ptd_client_server.lib.time_sync": "lib/time_sync.py"}}
+client 2023-07-24 22:19:09,767 [INFO] Running workload in ranging mode
+client 2023-07-24 22:19:09,767 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-24 22:19:09,849 [INFO] NTP:offset = 0.000 s, delay = 0.021 s 
+client 2023-07-24 22:19:09,849 [INFO] Sending command to the server: 'time'
+client 2023-07-24 22:19:09,853 [INFO] Got response: '1690237149.8032548'
+client 2023-07-24 22:19:09,853 [INFO] The time difference between the client and the server is within range 46.018 ms..50.197 ms
+client 2023-07-24 22:19:09,853 [INFO] Sending command to the server: 'session,2023-07-24_23-19-09,start,ranging'
+client 2023-07-24 22:19:34,017 [INFO] Got response: 'OK'
+client 2023-07-24 22:19:34,017 [INFO] Sending command to the server: 'time'
+client 2023-07-24 22:19:34,020 [INFO] Got response: '1690237173.9683084'
+client 2023-07-24 22:19:34,020 [INFO] The time difference between the client and the server is within range 49.416 ms..52.628 ms
+client 2023-07-24 22:19:34,020 [INFO] Running the workload 'CM_MLPERF_RUN_COUNT=$(cat ${CM_RUN_DIR}/count.txt); echo ${CM_MLPERF_RUN_COUNT}; CM_MLPERF_RUN_COUNT=$((CM_MLPERF_RUN_COUNT+1)); echo ${CM_MLPERF_RUN_COUNT} > ${CM_RUN_DIR}/count.txt && if [ ${CM_MLPERF_RUN_COUNT} -eq "1" ]; then export CM_MLPERF_USER_CONF=${CM_MLPERF_RANGING_USER_CONF}; else export CM_MLPERF_USER_CONF=${CM_MLPERF_TESTING_USER_CONF}; fi && make run_harness RUN_ARGS=" --benchmarks=resnet50 --scenarios=server --test_mode=PerformanceOnly --offline_expected_qps=38000 --server_target_qps=36500 --single_stream_expected_latency_ns=230000 --multi_stream_expected_latency_ns=400000 --user_conf_path=${CM_MLPERF_USER_CONF} --mlperf_conf_path=/home/cmuser/CM/repos/local/cache/669f6ef943704402/inference/mlperf.conf --gpu_batch_size=32 --no_audit_verify "'
+client 2023-07-24 22:24:45,832 [INFO] Sending command to the server: 'time'
+client 2023-07-24 22:24:45,835 [INFO] Got response: '1690237485.7793267'
+client 2023-07-24 22:24:45,835 [INFO] The time difference between the client and the server is within range 53.462 ms..56.660 ms
+client 2023-07-24 22:24:45,836 [INFO] Sending command to the server: 'session,2023-07-24_23-19-09,stop,ranging'
+client 2023-07-24 22:24:56,216 [INFO] Got response: 'OK'
+client 2023-07-24 22:24:56,216 [INFO] Sending command to the server: 'time'
+client 2023-07-24 22:24:56,218 [INFO] Got response: '1690237496.1692913'
+client 2023-07-24 22:24:56,218 [INFO] The time difference between the client and the server is within range 47.096 ms..49.260 ms
+client 2023-07-24 22:24:56,221 [INFO] Copying loadgen logs from '/home/cmuser/results_dir/valid_results/28df27c48ad9-nvidia_original-gpu-tensorrt-vdefault-default_config/resnet50/server/performance/run_1' to '/home/cmuser/results_dir/valid_results/28df27c48ad9-nvidia_original-gpu-tensorrt-vdefault-default_config/resnet50/server/performance/tmp_power/ranging'
+client 2023-07-24 22:24:56,221 [INFO] Running workload in testing mode
+client 2023-07-24 22:24:56,221 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-24 22:24:56,290 [INFO] NTP:offset = -0.001 s, delay = 0.015 s 
+client 2023-07-24 22:24:56,290 [INFO] Sending command to the server: 'time'
+client 2023-07-24 22:24:56,294 [INFO] Got response: '1690237496.2401462'
+client 2023-07-24 22:24:56,294 [INFO] The time difference between the client and the server is within range 50.625 ms..54.357 ms
+client 2023-07-24 22:24:56,294 [INFO] Sending command to the server: 'session,2023-07-24_23-19-09,start,testing'
+client 2023-07-24 22:25:09,354 [INFO] Got response: 'OK'
+client 2023-07-24 22:25:09,354 [INFO] Sending command to the server: 'time'
+client 2023-07-24 22:25:09,356 [INFO] Got response: '1690237509.3039253'
+client 2023-07-24 22:25:09,356 [INFO] The time difference between the client and the server is within range 50.786 ms..52.682 ms
+client 2023-07-24 22:25:09,356 [INFO] Running the workload 'CM_MLPERF_RUN_COUNT=$(cat ${CM_RUN_DIR}/count.txt); echo ${CM_MLPERF_RUN_COUNT}; CM_MLPERF_RUN_COUNT=$((CM_MLPERF_RUN_COUNT+1)); echo ${CM_MLPERF_RUN_COUNT} > ${CM_RUN_DIR}/count.txt && if [ ${CM_MLPERF_RUN_COUNT} -eq "1" ]; then export CM_MLPERF_USER_CONF=${CM_MLPERF_RANGING_USER_CONF}; else export CM_MLPERF_USER_CONF=${CM_MLPERF_TESTING_USER_CONF}; fi && make run_harness RUN_ARGS=" --benchmarks=resnet50 --scenarios=server --test_mode=PerformanceOnly --offline_expected_qps=38000 --server_target_qps=36500 --single_stream_expected_latency_ns=230000 --multi_stream_expected_latency_ns=400000 --user_conf_path=${CM_MLPERF_USER_CONF} --mlperf_conf_path=/home/cmuser/CM/repos/local/cache/669f6ef943704402/inference/mlperf.conf --gpu_batch_size=32 --no_audit_verify "'
+client 2023-07-24 22:35:25,680 [INFO] Sending command to the server: 'time'
+client 2023-07-24 22:35:25,685 [INFO] Got response: '1690238125.6216848'
+client 2023-07-24 22:35:25,685 [INFO] The time difference between the client and the server is within range 58.866 ms..64.301 ms
+client 2023-07-24 22:35:25,686 [INFO] Sending command to the server: 'session,2023-07-24_23-19-09,stop,testing'
+client 2023-07-24 22:35:36,423 [INFO] Got response: 'OK'
+client 2023-07-24 22:35:36,423 [INFO] Sending command to the server: 'time'
+client 2023-07-24 22:35:36,425 [INFO] Got response: '1690238136.3605282'
+client 2023-07-24 22:35:36,425 [INFO] The time difference between the client and the server is within range 63.383 ms..64.860 ms
+client 2023-07-24 22:35:36,425 [INFO] Copying loadgen logs from '/home/cmuser/results_dir/valid_results/28df27c48ad9-nvidia_original-gpu-tensorrt-vdefault-default_config/resnet50/server/performance/run_1' to '/home/cmuser/results_dir/valid_results/28df27c48ad9-nvidia_original-gpu-tensorrt-vdefault-default_config/resnet50/server/performance/tmp_power/run_1'
+client 2023-07-24 22:35:36,426 [INFO] Done runs
