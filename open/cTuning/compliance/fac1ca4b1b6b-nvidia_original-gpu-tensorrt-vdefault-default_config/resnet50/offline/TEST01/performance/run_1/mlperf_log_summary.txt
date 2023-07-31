@@ -4,30 +4,32 @@ MLPerf Results Summary
 SUT name : LWIS_Server
 Scenario : Offline
 Mode     : PerformanceOnly
-Samples per second: 2637.3
-Result is : VALID
-  Min duration satisfied : Yes
+Samples per second: 1329.19
+Result is : INVALID
+  Min duration satisfied : NO
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
+Recommendations:
+ * Increase expected QPS so the loadgen pre-generates a larger (coalesced) query.
 
 ================================================
 Additional Stats
 ================================================
-Min latency (ns)                : 14195104
-Max latency (ns)                : 691244180833
-Mean latency (ns)               : 345787788741
-50.00 percentile latency (ns)   : 345886651070
-90.00 percentile latency (ns)   : 622087846836
-95.00 percentile latency (ns)   : 656682435411
-97.00 percentile latency (ns)   : 670509053277
-99.00 percentile latency (ns)   : 684335093113
-99.90 percentile latency (ns)   : 690553203452
+Min latency (ns)                : 7108860
+Max latency (ns)                : 541377346292
+Mean latency (ns)               : 286612437392
+50.00 percentile latency (ns)   : 277486670308
+90.00 percentile latency (ns)   : 512206315633
+95.00 percentile latency (ns)   : 526774238417
+97.00 percentile latency (ns)   : 532613334488
+99.00 percentile latency (ns)   : 538455519343
+99.90 percentile latency (ns)   : 541086822290
 
 ================================================
 Test Parameters Used
 ================================================
-samples_per_query : 1823017
-target_qps : 2762.15
+samples_per_query : 719594
+target_qps : 1090.3
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
